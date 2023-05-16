@@ -8,3 +8,4 @@ I observed that the energy levels are quantized, and the wavefunctions have more
 This is intended as a good starting point for understanding the basics of quantum mechanics
 
 The wavefunction gives us the probabilities of finding the particle in each of these states (remember a particle can exist in multiple states simultaneously -- superposition even though we our observes or measurements will only find the particle in one state) 
+

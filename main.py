@@ -36,3 +36,13 @@ for n in range(4):  # number of levels to plot
     plt.grid(True)
 
 plt.show()
+
+# plot the probability densities for the first few energy levels
+for i in range(4):  # number of energy levels to plot
+    plt.plot(x, np.abs(wavefunctions[:, i])**2, label=f"n = {i+1}")
+plt.legend()
+plt.xlabel("Position (x)")
+plt.ylabel("Probability Density |Ψ(x)|^2")
+plt.title("Probability densities for a particle in a box")
+plt.grid(True)
+plt.show()
